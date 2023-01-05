@@ -1,10 +1,11 @@
-import { PadLocalClient } from "padlocal-client-ts";
-import { Contact, LoginPolicy, LoginType, Message, QRCodeEvent, QRCodeStatus, SyncEvent } from "padlocal-client-ts/dist/proto/padlocal_pb";
+import { PadLocalClient } from "quboqin-padlocal-client-ts";
+import { Contact, LoginPolicy, LoginType, Message, QRCodeEvent, QRCodeStatus, SyncEvent } from "quboqin-padlocal-client-ts/dist/proto/padlocal_pb";
 import * as QRCode from "qrcode-terminal";
 
 async function main() {
   ////////////////// 在这里填入你的 PadLocal Token //////////////////
-  const token: string = "puppet_padlocal_xxx";
+  // http://pad-local.com/#/tokens
+  const token: string = "puppet_padlocal_0721c4720661480292647e0181896996";
   ////////////////////////////////////////////////////////////////
 
   const client = await PadLocalClient.create(token);

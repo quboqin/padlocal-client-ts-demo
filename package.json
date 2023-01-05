@@ -13,7 +13,7 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "padlocal-client-ts": "^0.2.32",
+    "quboqin-padlocal-client-ts": "^0.5.4",
     "qrcode-terminal": "^0.12.0"
   }
 }
